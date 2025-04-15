@@ -6,7 +6,7 @@ const app = express();
 const PORT = 5000;
 
 app.use(cors({
-  origin: ['https://todo-client2.vercel.app', 'http://localhost:5173'],
+  origin: 'http://localhost:5173',
   methods: ['POST', 'GET', 'PUT', 'DELETE'],
 }));
 
